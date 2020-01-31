@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 public class App 
 {
     // mysql credentials
-    private final static String url = "jdbc:mysql://localhost:3307/city_directory?useSSL=false";
+    private final static String url = "jdbc:mysql://localhost:3307/city_directory?useSSL=false&allowPublicKeyRetrieval=true";
     private final static String user = "root";
     private final static String password = "password";
 
