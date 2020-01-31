@@ -26,7 +26,7 @@ make run
 ```
 
 ## Project Structure
-- [App.java](src/main/java/io.kotos/App.java) - Project entry point, which interacts with dependencies and writes to stdout.
-- [Municipality.java](src/main/java/io.kotos/Municipality.java) - POJO mapping to the result of our SQL query.
-- [MunicipalityRepository.java](src/main/java/io.kotos/MunicipalityRepository.java) - Data access layer logic for querying our MySQL database.
+- [App.java](src/main/java/io/kotos/App.java) - Project entry point, which interacts with dependencies and writes to stdout.
+- [Municipality.java](src/main/java/io/kotos/Municipality.java) - POJO mapping to the result of our SQL query.
+- [MunicipalityRepository.java](src/main/java/io/kotos/MunicipalityRepository.java) - Data access layer logic for querying our MySQL database.
 - [schema.sql](docker/mysql/schema.sql) - MySQL database schema.
