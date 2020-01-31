@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mysql:
+    container_name: cityDirectory_mysql
+    image: mysql:8.0.19
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+      - ./docker/mysql/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    ports:
+      - 3307:3306
